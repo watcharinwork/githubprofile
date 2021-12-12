@@ -119,6 +119,13 @@
 			<div class="lg:container lg:mx-auto w-full self-center flex flex-wrap items-end justify-center">
 				<div class="w-full underline lg:text-4xl text-2xl mb-4 text-green-500">Experience</div>
 				<div class="w-full lg:text-xl text-base mb-4">Full-stack Developer @ Qube Digital Content : 2019 – Present</div>
+
+				<ul class="list-disc list-inside text-left">
+					<li>Connect API Promptpay Payment from SCB.</li>
+					<li>Connect API place order on SCG Express</li>
+					<li>Develop front web page ex.github pages</li>
+					<li>Develop back-end and connect to database via MySQL</li>
+				</ul>
 			</div>
 		</div>
 	</div>
