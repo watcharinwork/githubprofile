@@ -15,7 +15,7 @@ import { reactive } from "vue";
 export default {
 	setup() {
 		const data = reactive({
-			pages: 3,
+			pages: 1,
 			showPage: false,
 		});
 

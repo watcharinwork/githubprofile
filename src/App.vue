@@ -1,5 +1,6 @@
 <template>
 	<!-- <MainPage /> -->
+	<Header />
 	<router-view />
 </template>
 
@@ -9,13 +10,20 @@
 // import HelloWorld from './components/HelloWorld.vue'
 </script> -->
 
-<script>
+<script lang="ts">
 import smoothscroll from "smoothscroll-polyfill";
 smoothscroll.polyfill();
+import { defineComponent } from "vue";
+import { templateRef } from "@vueuse/core";
 
-export default {
+export default defineComponent({
 	name: "App",
-};
+
+	setup() {
+		const tempRef = <any>templateRef("page");
+		return { tempRef };
+	},
+});
 </script>
 
 <style lang="less">

@@ -175,11 +175,11 @@
 </template>
 
 <script lang="ts">
-import { reactive, onMounted, onUnmounted, computed } from "vue";
+import { reactive, onMounted, onUnmounted, defineComponent } from "vue";
 import { templateRef, useWindowScroll } from "@vueuse/core";
 import { useRoute, useRouter } from "vue-router";
 
-export default {
+export default defineComponent({
 	setup() {
 		const data = reactive({
 			text: "Hello World",
@@ -291,5 +291,5 @@ export default {
 
 		return { data, gotoLocation, scrollTop, y, position };
 	},
-};
+});
 </script>

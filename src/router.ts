@@ -1,10 +1,15 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import Home from './components/MainPage.vue'
+import Main from './components/MainPage.vue'
 const routes: RouteRecordRaw[] = [
-    {
-        path: '/web-profile/',
+    /* {
+        path: '/',
         name: 'Home',
         component: Home
+    } */
+    {
+        path: '/',
+        name: 'Main',
+        component: Main
     }
 
 ]

@@ -8,5 +8,5 @@ export default defineConfig({
     Vue(),
     Components(),
   ],
-  base: "/web-profile/"  
+  base: "/"  
 })
